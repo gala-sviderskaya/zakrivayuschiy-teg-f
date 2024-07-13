@@ -17,8 +17,7 @@
   --stroke-color: #000;
 }
 
-:root.theme-light
- {
+:root.theme-light {
   --bg: #fff;
   --accent-color: #000;
   --wght-text: 400;
