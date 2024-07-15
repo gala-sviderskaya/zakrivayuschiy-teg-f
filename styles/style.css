@@ -426,7 +426,7 @@
 
 .dialog {
   width: clamp(21.313rem, 1.127vw + 21.048rem, 22.063rem);
-  padding: 30px;
+  padding: 30px 40px;
   line-height:1.5;
   text-transform: uppercase;
   border: 2px solid var(--accent-color);
@@ -434,7 +434,7 @@
   color: var(--accent-color);
 }
 
-dialog::backdrop {
+.dialog::backdrop {
   background-color: #000;
   opacity: 0.75;
 }
@@ -487,9 +487,5 @@ dialog::backdrop {
 
   .label-text {
     inset-inline-end: 13px;
-  }
-
-  #dialog-id {
-    padding: 30px 40px;
   }
 }
